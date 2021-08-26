@@ -1,0 +1,16 @@
+[package]
+name = "todo-hero-backend"
+version = "0.1.0"
+authors = ["Armin Primadi <aprimadi@gmail.com>"]
+keywords = ["todo-list", "todo-list-backend"]
+description = "Backend for TodoHero app"
+homepage = "https://github.com/aprimadi/todo-hero-backend"
+repository = "https://github.com/aprimadi/todo-hero-backend"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+rocksdb = "0.17"
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
+
